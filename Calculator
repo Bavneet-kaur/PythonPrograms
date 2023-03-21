@@ -1,0 +1,15 @@
+print("Calculator")
+print(''' " + "," - "," * "," / " ''')
+n1 = int(input("Enter the value: "))
+n2 = int(input("Enter the value: "))
+op = input("Enter the operator: ")
+if op == "+":
+    print("Sum of Numbers: ",n1 + n2)
+elif op == "-":
+    print("Substract of Numbers: ",n1 - n2)
+elif op == "*":
+    print("Product of Numbers: ",n1 * n2)
+elif op == "/":
+    print("Division of Numbers: ",n1 / n2)
+else:
+    print("Inavlid Operator")
